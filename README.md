@@ -31,3 +31,10 @@ For each file, performs a multiple sequence alignment using MAFFT.
 Saves the aligned sequences in the specified output directory with "_aligned.fa" appended to the original file name.
 Displays a message indicating the successful alignment for each file.
 This script facilitates the batch alignment of protein sequences using MAFFT, streamlining the process for multiple files and providing organized results in the specified output directory.
+
+Suggestion istall Mafft: 
+
+conda create --name mafft_env
+conda activate mafft_env
+conda install bioconda::mafft
+
